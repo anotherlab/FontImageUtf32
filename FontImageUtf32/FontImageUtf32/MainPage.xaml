@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             BackgroundColor="White"
              xmlns:local="clr-namespace:FontImageUtf32"
              x:Class="FontImageUtf32.MainPage">
 
@@ -11,13 +12,13 @@
         <Label Text="Facebook logo appears below" 
                HorizontalOptions="Center" 
                FontSize="Medium"/>
-        <Image HeightRequest="44"
+        <Image HeightRequest="50"
                HorizontalOptions="Center"
                VerticalOptions="Center"
-               WidthRequest="44">
+               WidthRequest="50">
             <Image.Source>
             <FontImageSource Color="Black"
-                             Size="44"
+                             Size="50"
                              FontFamily="{DynamicResource MaterialFontFamily}"
                              Glyph="{x:Static local:MaterialDesignIconFont.Facebook}"/>
             </Image.Source>
@@ -25,13 +26,13 @@
         <Label Text="Real Estate Sign icon should appear below" 
                HorizontalOptions="Center" 
                FontSize="Medium"/>
-        <Image HeightRequest="44"
+        <Image HeightRequest="50"
                HorizontalOptions="Center"
                VerticalOptions="Center"
-               WidthRequest="44">
+               WidthRequest="50">
             <Image.Source>
                 <FontImageSource Color="Black"
-                             Size="44"
+                             Size="20"
                              FontFamily="{DynamicResource MaterialFontFamily}"
                              Glyph="{x:Static local:MaterialDesignIconFont.SignRealEstate}"/>
             </Image.Source>
